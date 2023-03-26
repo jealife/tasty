@@ -1,0 +1,104 @@
+
+@media (max-width: 768px) {
+    main {
+        padding-top: 5rem;
+        background-image: url(Ellipse\ 1.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .display-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .hero-containter {
+        width: 100%;
+        margin: 0;
+        padding: 3rem 0 0 0 ;
+        text-align: center;
+        transition: 0.5s;
+    }
+    .title-container{
+        padding: 0 2.5rem;
+
+    }
+
+    .title-container h2 {
+        font-size: 60px;
+        font-weight: bold;
+        color: #fc8f00;
+        font-weight: 900;
+    }
+
+    .title-container p {
+        font-size: 1.5rem;
+        margin: -1.5rem 0 1rem 0;
+    }
+
+    .btn {
+        background-color: #FCC000;
+        border: none;
+        height: 55px;
+        border-radius: 100px;
+        padding: 10px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 1vh;
+        width: 200px;
+        color: #fff;
+        font-size: 1.5rem;
+        font-weight: 600;
+        cursor: pointer;
+
+    }
+    .start{
+        font-size: 2.5rem;
+    }
+
+    .shadow {
+
+        box-shadow: #FCC000 0px 14px 28px, #fcac00 0px 10px 10px;
+    }
+
+    .btn:hover {
+        transition: 5s;
+        box-shadow: #FCC000 0px 1px 1px 0px inset, #fcac00 0px 50px 100px -20px, #fcac00 0px 30px 60px -30px;
+
+    }
+
+    /* .image-hero-container{
+
+     } */
+    .image-hero-container {
+        width: 100%;
+        background: url(Ellipse\ 2.png);
+    }
+
+    .image-hero-container img {
+        width: 90vw;
+    }
+
+    .image-hero-container .img-hero-2 {
+        display: none;
+    }
+}
+
+body {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    width: 0.4rem;
+    background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background: #FCC000;
+}
